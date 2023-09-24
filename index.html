@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookings</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>My Bookings</h1>
+        
+        <!-- List of bookings -->
+        <ul class="list-group">
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/car1.jpg" alt="Car 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-5">
+                        <h5>Booking 1</h5>
+                        <p>Car: Car 1</p>
+                        <p>Pickup Date: 2023-09-25</p>
+                        <p>Return Date: 2023-09-28</p>
+                    </div>
+                    <div class="col-md-2 border border-success">
+                        <p><strong>Status:</strong> Confirmed</p>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary">Cancel</button>
+                    </div>
+                </div>
+            </li>
+            <!-- Repeat this list item structure for other bookings -->
+        </ul>
+    </div>
+</body>
+</html>
